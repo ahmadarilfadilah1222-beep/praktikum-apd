@@ -9,4 +9,4 @@ print(status)
 
 nilai = 70
 status = "Lulus" if nilai >= 60 else "Tidak Lulus"
-print(status)
+print(status) 

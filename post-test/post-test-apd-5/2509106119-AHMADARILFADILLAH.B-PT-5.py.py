@@ -1,5 +1,4 @@
 import os
-
 users = [
     ["admin", "admin123", "admin"]
 ]
@@ -89,7 +88,7 @@ while True:
                     nomor = input("Pilih nomor mobil yang ingin diupdate: ").strip()
 
                     if not nomor.isdigit() or int(nomor) < 1 or int(nomor) > len(mobil_list):
-                        print(" Nomor tidak valid!")
+                        print("⚠ Nomor tidak valid!")
                         input("Tekan Enter...")
                         continue
 
